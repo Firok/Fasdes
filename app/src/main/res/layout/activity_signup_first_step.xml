@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:id="@+id/mLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_size_larger"
+        android:paddingRight="@dimen/padding_size_larger"
+        android:focusableInTouchMode="true">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/margin_size_default">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/padding_size_default"
+                android:paddingBottom="@dimen/padding_size_default"
+                android:singleLine="true"
+                android:textColor="@color/grey_dark"
+                android:textColorHint="@color/text_hint_color" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_default"
+            android:fontFamily="roboto"
+            android:text="@string/gender"
+            android:textSize="@dimen/text_size_medium" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_marginBottom="@dimen/margin_size_default">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_default"
+                android:layout_marginEnd="@dimen/margin_size_default"
+                android:layout_weight="5"
+                android:background="@drawable/selector_background"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="@dimen/padding_size_large"
+                android:text="@string/male"
+                android:textColor="@drawable/selector_custom_radio_text_color"
+                android:textSize="@dimen/text_size_small" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:background="@drawable/selector_background"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="@dimen/padding_size_large"
+                android:text="@string/female"
+                android:textColor="@drawable/selector_custom_radio_text_color"
+                android:textSize="@dimen/text_size_small" />
+
+        </RadioGroup>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/margin_size_default">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/padding_size_default"
+                android:paddingBottom="@dimen/padding_size_default"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/margin_size_default">
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/mobile"
+                android:inputType="phone"
+                android:paddingLeft="@dimen/padding_size_default"
+                android:paddingBottom="@dimen/padding_size_default"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Button Sign up -->
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#ea4c88"
+            android:padding="10dp"
+            android:text="@string/next"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="10dp"
+            android:text="@string/already_have_account"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_large" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

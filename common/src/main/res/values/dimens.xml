@@ -1,0 +1,53 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size_smallest">8sp</dimen>
+    <dimen name="text_size_smaller">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_larger">24sp</dimen>
+
+    <dimen name="padding_size_default">8dp</dimen>
+    <dimen name="padding_size_medium">6dp</dimen>
+    <dimen name="padding_size_small">3dp</dimen>
+    <dimen name="padding_size_smaller">2dp</dimen>
+    <dimen name="padding_size_large">12dp</dimen>
+    <dimen name="padding_size_larger">20dp</dimen>
+
+    <dimen name="margin_size_default">8dp</dimen>
+    <dimen name="margin_size_medium">5dp</dimen>
+    <dimen name="margin_size_small">3dp</dimen>
+    <dimen name="margin_size_large">10dp</dimen>
+
+    <dimen name="icon_input_height">60dp</dimen>
+    <dimen name="icon_input_width">45dp</dimen>
+
+    <dimen name="thumbnail_height">220dp</dimen>
+    <dimen name="thumbnail_width">150dp</dimen>
+
+    <dimen name="related_items_container_height">180dp</dimen>
+    <dimen name="related_thumbnail_width">90dp</dimen>
+    <dimen name="related_thumbnail_height">130dp</dimen>
+    <dimen name="related_item_height">140dp</dimen>
+
+    <dimen name="title_text_size">13sp</dimen>
+    <dimen name="default_text_size">12sp</dimen>
+    <dimen name="detail_view_title_text_size">16sp</dimen>
+    <dimen name="detail_thumbnail_width">170dp</dimen>
+    <dimen name="etail_thumbnail_height">250dp</dimen>
+
+    <dimen name="drawable_padding_size">5dp</dimen>
+    <dimen name="arrow_size">35dp</dimen>
+    <dimen name="detail_view_poster_height">450dp</dimen>
+    <dimen name="label_height">30dp</dimen>
+    <dimen name="actionbar_text_size">15sp</dimen>
+
+    <dimen name="collapsible_app_bar_height">300dp</dimen>
+    <dimen name="posters_pager_height">180dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+</resources>
